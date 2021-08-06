@@ -11,11 +11,63 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/16f8afac0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <!-- =================NAVBAR================== -->
+    <div class="fixed-top">
+        <!-- collapse -->
+        <div class="collapse d-lg-none" id="navbarToggleExternalContent">
+            <div class="bg-light p-4 d-flex flex-column align-items-center">
+                <h5 class="text-dark h4">David Augusto</h5>
+                <p class="text-center text-black-50">Future Full-Stack Developer - Student at AltCademy</p>
+                <div class="w-25 d-flex justify-content-around">
+                    <a class="text-black-50 social-icon" href="#"><i class="fab fa-github-alt fa-2x"></i></a>
+                    <a class="text-black-50 social-icon" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+                <hr class="w-100">
+                <!-- ====NAVBAR ONLY SMALL==== -->
+                <div class="w-100">
+                    <ul class="navbar-nav flex-row justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ========================= -->
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <a class="navbar-brand text-black-50" href="#">My Portfolio</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
     <!-- ========================================= -->
 
     <!-- ==================BODY=================== -->
@@ -24,7 +76,7 @@
     <!-- =================FOOTER================== -->
     <!-- ========================================= -->
 
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
